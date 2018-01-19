@@ -4,7 +4,7 @@ var fs = require("fs");
 var path = require('path');
 var mkdirp = require("mkdirp");
 var async = require("async");
-var Resolver = require("truffle-resolver");
+var Resolver = require("truffle-resolver-fix-relative-path-issue");
 var Artifactor = require("truffle-artifactor");
 var Contracts = require("../lib/contracts.js");
 

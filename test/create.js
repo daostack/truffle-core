@@ -4,7 +4,7 @@ var fs = require("fs");
 var Box = require("truffle-box");
 var Create = require("../lib/create");
 var dir = require("node-dir");
-var Resolver = require("truffle-resolver");
+var Resolver = require("truffle-resolver-fix-relative-path-issue");
 var Artifactor = require("truffle-artifactor");
 
 describe('create', function() {

@@ -2,7 +2,7 @@ var assert = require("chai").assert;
 var Box = require("truffle-box");
 var Contracts = require("../lib/contracts");
 var Artifactor = require("truffle-artifactor");
-var Resolver = require("truffle-resolver");
+var Resolver = require("truffle-resolver-fix-relative-path-issue");
 var path = require("path");
 var fs = require("fs");
 

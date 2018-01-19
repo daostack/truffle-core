@@ -5,7 +5,7 @@ var Box = require("truffle-box");
 var Contracts = require("../lib/contracts");
 var TestRPC = require("ganache-cli");
 var provision = require("truffle-provisioner");
-var Resolver = require("truffle-resolver");
+var Resolver = require("truffle-resolver-fix-relative-path-issue");
 var Artifactor = require("truffle-artifactor");
 
 describe('config', function() {
